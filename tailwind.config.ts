@@ -63,29 +63,29 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'fast-pink': {
-					50: '#fdf2f8',
-					100: '#fce7f3',
-					200: '#fbcfe8',
-					300: '#f9a8d4',
-					400: '#f472b6',
-					500: '#ec4899',
-					600: '#db2777',
-					700: '#be185d',
-					800: '#9d174d',
-					900: '#831843'
+				'fast-yellow': {
+					50: '#fefbf3',
+					100: '#fdf6e3',
+					200: '#fbecc4',
+					300: '#f7dd9a',
+					400: '#f2c464',
+					500: '#f0dc24',
+					600: '#d4bc15',
+					700: '#b19513',
+					800: '#8f7316',
+					900: '#745f16'
 				},
-				'fast-purple': {
-					50: '#faf5ff',
-					100: '#f3e8ff',
-					200: '#e9d5ff',
-					300: '#d8b4fe',
-					400: '#c084fc',
-					500: '#a855f7',
-					600: '#9333ea',
-					700: '#7c3aed',
-					800: '#6b21a8',
-					900: '#581c87'
+				'fast-black': {
+					50: '#f6f6f6',
+					100: '#e7e7e7',
+					200: '#d1d1d1',
+					300: '#b0b0b0',
+					400: '#888888',
+					500: '#6d6d6d',
+					600: '#5d5d5d',
+					700: '#4f4f4f',
+					800: '#454545',
+					900: '#3d3d3d'
 				}
 			},
 			borderRadius: {
@@ -138,8 +138,8 @@ export default {
 				'slide-in-right': 'slide-in-right 0.8s ease-out'
 			},
 			backgroundImage: {
-				'gradient-fast': 'linear-gradient(135deg, #ec4899 0%, #a855f7 100%)',
-				'gradient-fast-light': 'linear-gradient(135deg, #f9a8d4 0%, #d8b4fe 100%)'
+				'gradient-fast': 'linear-gradient(135deg, #f0dc24 0%, #3d3d3d 100%)',
+				'gradient-fast-light': 'linear-gradient(135deg, #fdf6e3 0%, #f6f6f6 100%)'
 			}
 		}
 	},

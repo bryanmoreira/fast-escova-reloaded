@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="inicio" className="pt-20 pb-16 bg-gradient-to-br from-fast-pink-50 to-fast-purple-50">
+    <section id="inicio" className="pt-20 pb-16 bg-gradient-to-br from-fast-yellow-50 to-fast-black-50">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
@@ -33,11 +33,11 @@ const Hero = () => {
                 <span className="text-sm font-medium">5.0 estrelas</span>
               </div>
               <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
-                <Clock className="w-5 h-5 text-fast-pink-500" />
+                <Clock className="w-5 h-5 text-fast-yellow-500" />
                 <span className="text-sm font-medium">Agendamento rápido</span>
               </div>
               <div className="flex items-center gap-2 bg-white rounded-full px-4 py-2 shadow-sm">
-                <MapPin className="w-5 h-5 text-fast-purple-500" />
+                <MapPin className="w-5 h-5 text-fast-black-500" />
                 <span className="text-sm font-medium">Vila Prudente</span>
               </div>
             </div>
@@ -54,7 +54,7 @@ const Hero = () => {
                 onClick={() => scrollToSection('servicos')}
                 variant="outline"
                 size="lg"
-                className="border-fast-pink-300 text-fast-pink-600 hover:bg-fast-pink-50 px-8 py-4 text-lg rounded-full"
+                className="border-fast-yellow-300 text-fast-yellow-600 hover:bg-fast-yellow-50 px-8 py-4 text-lg rounded-full"
               >
                 Ver Serviços
               </Button>
@@ -70,19 +70,19 @@ const Hero = () => {
                     <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <span className="text-3xl">💇‍♀️</span>
                     </div>
-                    <h3 className="text-xl font-bold text-fast-purple-700">Transformação Completa</h3>
-                    <p className="text-fast-purple-600 mt-2">Cabelos dos sonhos te esperam</p>
+                    <h3 className="text-xl font-bold text-fast-black-700">Transformação Completa</h3>
+                    <p className="text-fast-black-600 mt-2">Cabelos dos sonhos te esperam</p>
                   </div>
                 </div>
                 
                 <div className="grid grid-cols-2 gap-4 text-center">
-                  <div className="bg-fast-pink-50 rounded-xl p-4">
-                    <div className="text-2xl font-bold text-fast-pink-600">500+</div>
-                    <div className="text-sm text-fast-pink-700">Clientes felizes</div>
+                  <div className="bg-fast-yellow-50 rounded-xl p-4">
+                    <div className="text-2xl font-bold text-fast-yellow-600">500+</div>
+                    <div className="text-sm text-fast-yellow-700">Clientes felizes</div>
                   </div>
-                  <div className="bg-fast-purple-50 rounded-xl p-4">
-                    <div className="text-2xl font-bold text-fast-purple-600">3 anos</div>
-                    <div className="text-sm text-fast-purple-700">De experiência</div>
+                  <div className="bg-fast-black-50 rounded-xl p-4">
+                    <div className="text-2xl font-bold text-fast-black-600">3 anos</div>
+                    <div className="text-sm text-fast-black-700">De experiência</div>
                   </div>
                 </div>
               </div>

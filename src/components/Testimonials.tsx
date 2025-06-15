@@ -69,7 +69,7 @@ const Testimonials = () => {
                   />
                   <div>
                     <h4 className="font-semibold text-gray-800">{testimonial.name}</h4>
-                    <p className="text-sm text-fast-pink-600">{testimonial.service}</p>
+                    <p className="text-sm text-fast-yellow-600">{testimonial.service}</p>
                   </div>
                 </div>
               </CardContent>

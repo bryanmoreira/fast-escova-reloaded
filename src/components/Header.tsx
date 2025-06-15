@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-fast-pink-100">
+    <header className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-fast-yellow-100">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
@@ -29,31 +29,31 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('inicio')}
-              className="text-gray-700 hover:text-fast-pink-500 transition-colors"
+              className="text-gray-700 hover:text-fast-yellow-500 transition-colors"
             >
               Início
             </button>
             <button
               onClick={() => scrollToSection('servicos')}
-              className="text-gray-700 hover:text-fast-pink-500 transition-colors"
+              className="text-gray-700 hover:text-fast-yellow-500 transition-colors"
             >
               Serviços
             </button>
             <button
               onClick={() => scrollToSection('galeria')}
-              className="text-gray-700 hover:text-fast-pink-500 transition-colors"
+              className="text-gray-700 hover:text-fast-yellow-500 transition-colors"
             >
               Galeria
             </button>
             <button
               onClick={() => scrollToSection('localizacao')}
-              className="text-gray-700 hover:text-fast-pink-500 transition-colors"
+              className="text-gray-700 hover:text-fast-yellow-500 transition-colors"
             >
               Localização
             </button>
             <button
               onClick={() => scrollToSection('agendamento')}
-              className="text-gray-700 hover:text-fast-pink-500 transition-colors"
+              className="text-gray-700 hover:text-fast-yellow-500 transition-colors"
             >
               Agendamento
             </button>
@@ -76,35 +76,35 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 border-t border-fast-pink-100">
+          <nav className="md:hidden mt-4 pb-4 border-t border-fast-yellow-100">
             <div className="flex flex-col space-y-4 pt-4">
               <button
                 onClick={() => scrollToSection('inicio')}
-                className="text-left text-gray-700 hover:text-fast-pink-500 transition-colors"
+                className="text-left text-gray-700 hover:text-fast-yellow-500 transition-colors"
               >
                 Início
               </button>
               <button
                 onClick={() => scrollToSection('servicos')}
-                className="text-left text-gray-700 hover:text-fast-pink-500 transition-colors"
+                className="text-left text-gray-700 hover:text-fast-yellow-500 transition-colors"
               >
                 Serviços
               </button>
               <button
                 onClick={() => scrollToSection('galeria')}
-                className="text-left text-gray-700 hover:text-fast-pink-500 transition-colors"
+                className="text-left text-gray-700 hover:text-fast-yellow-500 transition-colors"
               >
                 Galeria
               </button>
               <button
                 onClick={() => scrollToSection('localizacao')}
-                className="text-left text-gray-700 hover:text-fast-pink-500 transition-colors"
+                className="text-left text-gray-700 hover:text-fast-yellow-500 transition-colors"
               >
                 Localização
               </button>
               <button
                 onClick={() => scrollToSection('agendamento')}
-                className="text-left text-gray-700 hover:text-fast-pink-500 transition-colors"
+                className="text-left text-gray-700 hover:text-fast-yellow-500 transition-colors"
               >
                 Agendamento
               </button>

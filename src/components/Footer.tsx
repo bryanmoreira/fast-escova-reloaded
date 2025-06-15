@@ -58,12 +58,12 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-6">Nossos Serviços</h3>
             <ul className="space-y-3 text-gray-300">
-              <li className="hover:text-fast-pink-400 transition-colors cursor-pointer">Escova Progressiva</li>
-              <li className="hover:text-fast-pink-400 transition-colors cursor-pointer">Relaxamento Capilar</li>
-              <li className="hover:text-fast-pink-400 transition-colors cursor-pointer">Tratamento Reconstrutivo</li>
-              <li className="hover:text-fast-pink-400 transition-colors cursor-pointer">Escova Express</li>
-              <li className="hover:text-fast-pink-400 transition-colors cursor-pointer">Hidratação Profunda</li>
-              <li className="hover:text-fast-pink-400 transition-colors cursor-pointer">Corte e Escova</li>
+              <li className="hover:text-fast-yellow-400 transition-colors cursor-pointer">Escova Progressiva</li>
+              <li className="hover:text-fast-yellow-400 transition-colors cursor-pointer">Relaxamento Capilar</li>
+              <li className="hover:text-fast-yellow-400 transition-colors cursor-pointer">Tratamento Reconstrutivo</li>
+              <li className="hover:text-fast-yellow-400 transition-colors cursor-pointer">Escova Express</li>
+              <li className="hover:text-fast-yellow-400 transition-colors cursor-pointer">Hidratação Profunda</li>
+              <li className="hover:text-fast-yellow-400 transition-colors cursor-pointer">Corte e Escova</li>
             </ul>
           </div>
 
@@ -72,7 +72,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-6">Contato</h3>
             <div className="space-y-4 text-gray-300">
               <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-fast-pink-400 mt-1 flex-shrink-0" />
+                <MapPin className="w-5 h-5 text-fast-yellow-400 mt-1 flex-shrink-0" />
                 <div>
                   <p>Rua Avaré, 134</p>
                   <p>Vila Prudente, São Paulo - SP</p>
@@ -126,13 +126,13 @@ const Footer = () => {
           <div className="text-gray-400 text-center md:text-left">
             <p>&copy; {currentYear} Fast Escova Vila Prudente. Todos os direitos reservados.</p>
             <p className="text-sm mt-1">
-              Desenvolvido com <Heart className="w-4 h-4 inline text-fast-pink-400" /> para sua beleza
+              Desenvolvido com <Heart className="w-4 h-4 inline text-fast-yellow-400" /> para sua beleza
             </p>
           </div>
           
           <button
             onClick={scrollToTop}
-            className="bg-fast-pink-600 hover:bg-fast-pink-700 text-white px-6 py-2 rounded-full transition-colors"
+            className="bg-fast-yellow-600 hover:bg-fast-yellow-700 text-white px-6 py-2 rounded-full transition-colors"
           >
             Voltar ao topo
           </button>

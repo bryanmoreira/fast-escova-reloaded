@@ -30,7 +30,7 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="galeria" className="py-20 bg-gradient-to-br from-fast-purple-50 to-fast-pink-50">
+    <section id="galeria" className="py-20 bg-gradient-to-br from-fast-black-50 to-fast-yellow-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">

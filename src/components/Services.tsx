@@ -10,7 +10,7 @@ const Services = () => {
       description: "Elimine o frizz e tenha cabelos lisos e sedosos por meses. Tratamento profissional com produtos de alta qualidade.",
       duration: "3-4 horas",
       highlight: "Mais popular",
-      color: "fast-pink"
+      color: "fast-yellow"
     },
     {
       icon: <Heart className="w-8 h-8" />,
@@ -18,7 +18,7 @@ const Services = () => {
       description: "Transforme cabelos crespos em lisos definitivamente. Técnica segura e resultados duradouros.",
       duration: "2-3 horas",
       highlight: "Resultado duradouro",
-      color: "fast-purple"
+      color: "fast-black"
     },
     {
       icon: <Star className="w-8 h-8" />,
@@ -26,7 +26,7 @@ const Services = () => {
       description: "Recupere a saúde dos seus cabelos com nossos tratamentos intensivos de hidratação e nutrição.",
       duration: "1-2 horas",
       highlight: "Cabelos saudáveis",
-      color: "fast-pink"
+      color: "fast-yellow"
     },
     {
       icon: <Clock className="w-8 h-8" />,
@@ -34,7 +34,7 @@ const Services = () => {
       description: "Para quem tem pressa mas não abre mão da beleza. Escova rápida com secagem profissional.",
       duration: "45 min",
       highlight: "Resultado rápido",
-      color: "fast-purple"
+      color: "fast-black"
     }
   ];
 
@@ -59,17 +59,17 @@ const Services = () => {
             >
               <CardContent className="p-8 text-center h-full flex flex-col">
                 <div className={`w-16 h-16 bg-gradient-to-br ${
-                  service.color === 'fast-pink' 
-                    ? 'from-fast-pink-400 to-fast-pink-600' 
-                    : 'from-fast-purple-400 to-fast-purple-600'
+                  service.color === 'fast-yellow' 
+                    ? 'from-fast-yellow-400 to-fast-yellow-600' 
+                    : 'from-fast-black-400 to-fast-black-600'
                 } rounded-2xl flex items-center justify-center mx-auto mb-6 text-white group-hover:scale-110 transition-transform`}>
                   {service.icon}
                 </div>
                 
                 <div className={`inline-block px-3 py-1 rounded-full text-sm font-medium mb-4 ${
-                  service.color === 'fast-pink'
-                    ? 'bg-fast-pink-100 text-fast-pink-700'
-                    : 'bg-fast-purple-100 text-fast-purple-700'
+                  service.color === 'fast-yellow'
+                    ? 'bg-fast-yellow-100 text-fast-yellow-700'
+                    : 'bg-fast-black-100 text-fast-black-700'
                 }`}>
                   {service.highlight}
                 </div>
@@ -93,10 +93,10 @@ const Services = () => {
 
         <div className="text-center mt-12">
           <div className="bg-gradient-fast-light rounded-2xl p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-fast-purple-800 mb-4">
+            <h3 className="text-2xl font-bold text-fast-black-800 mb-4">
               💝 Primeira vez? Ganhe 15% de desconto!
             </h3>
-            <p className="text-fast-purple-700 text-lg">
+            <p className="text-fast-black-700 text-lg">
               Venha conhecer nosso trabalho e se apaixonar pelo resultado. 
               Desconto válido para todos os serviços na sua primeira visita.
             </p>

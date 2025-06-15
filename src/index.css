@@ -16,7 +16,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 51 89% 55%;
+    --primary: 51 100% 50%;
     --primary-foreground: 210 40% 98%;
 
     --secondary: 210 40% 96.1%;
@@ -25,7 +25,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 51 89% 55%;
+    --accent: 51 100% 50%;
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 51 89% 55%;
+    --ring: 51 100% 50%;
 
     --radius: 0.5rem;
 
@@ -57,7 +57,7 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 51 89% 55%;
+    --primary: 51 100% 50%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
     --secondary: 217.2 32.6% 17.5%;
@@ -66,7 +66,7 @@
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 51 89% 55%;
+    --accent: 51 100% 50%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -99,5 +99,9 @@
 @layer components {
   .gradient-text {
     @apply bg-gradient-to-r from-fast-yellow-500 to-fast-black-800 bg-clip-text text-transparent;
+  }
+  
+  .gradient-yellow-text {
+    @apply bg-gradient-yellow bg-clip-text text-transparent;
   }
 }

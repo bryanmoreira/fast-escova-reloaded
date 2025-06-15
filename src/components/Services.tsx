@@ -58,17 +58,17 @@ const Services = () => {
               className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-none shadow-lg"
             >
               <CardContent className="p-8 text-center h-full flex flex-col">
-                <div className={`w-16 h-16 bg-gradient-to-br ${
+                <div className={`w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-white group-hover:scale-110 transition-transform ${
                   service.color === 'fast-yellow' 
-                    ? 'from-fast-yellow-400 to-fast-yellow-600' 
-                    : 'from-fast-black-400 to-fast-black-600'
-                } rounded-2xl flex items-center justify-center mx-auto mb-6 text-white group-hover:scale-110 transition-transform`}>
+                    ? 'bg-gradient-yellow' 
+                    : 'bg-gradient-to-br from-fast-black-400 to-fast-black-600'
+                }`}>
                   {service.icon}
                 </div>
                 
                 <div className={`inline-block px-3 py-1 rounded-full text-sm font-medium mb-4 ${
                   service.color === 'fast-yellow'
-                    ? 'bg-fast-yellow-100 text-fast-yellow-700'
+                    ? 'bg-fast-yellow-100 text-fast-yellow-600'
                     : 'bg-fast-black-100 text-fast-black-700'
                 }`}>
                   {service.highlight}
@@ -92,7 +92,7 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="bg-gradient-fast-light rounded-2xl p-8 max-w-4xl mx-auto">
+          <div className="bg-gradient-yellow-light rounded-2xl p-8 max-w-4xl mx-auto">
             <h3 className="text-2xl font-bold text-fast-black-800 mb-4">
               💝 Primeira vez? Ganhe 15% de desconto!
             </h3>

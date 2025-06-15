@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Star, Clock, MapPin } from "lucide-react";
 
@@ -46,7 +45,7 @@ const Hero = () => {
               <Button
                 onClick={() => scrollToSection('agendamento')}
                 size="lg"
-                className="bg-gradient-fast hover:opacity-90 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
+                className="bg-gradient-yellow hover:opacity-90 text-fast-black-800 font-bold px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
               >
                 Agendar Horário
               </Button>
@@ -54,7 +53,7 @@ const Hero = () => {
                 onClick={() => scrollToSection('servicos')}
                 variant="outline"
                 size="lg"
-                className="border-fast-yellow-300 text-fast-yellow-600 hover:bg-fast-yellow-50 px-8 py-4 text-lg rounded-full"
+                className="border-fast-yellow-300 text-fast-yellow-500 hover:bg-fast-yellow-50 px-8 py-4 text-lg rounded-full"
               >
                 Ver Serviços
               </Button>
@@ -63,9 +62,9 @@ const Hero = () => {
 
           <div className="animate-slide-in-right">
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-fast rounded-3xl transform rotate-6 opacity-20"></div>
+              <div className="absolute inset-0 bg-gradient-yellow rounded-3xl transform rotate-6 opacity-20"></div>
               <div className="relative bg-white rounded-3xl p-8 shadow-2xl">
-                <div className="aspect-square bg-gradient-fast-light rounded-2xl flex items-center justify-center mb-6">
+                <div className="aspect-square bg-gradient-yellow-light rounded-2xl flex items-center justify-center mb-6">
                   <div className="text-center">
                     <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg">
                       <span className="text-3xl">💇‍♀️</span>
@@ -77,8 +76,8 @@ const Hero = () => {
                 
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div className="bg-fast-yellow-50 rounded-xl p-4">
-                    <div className="text-2xl font-bold text-fast-yellow-600">500+</div>
-                    <div className="text-sm text-fast-yellow-700">Clientes felizes</div>
+                    <div className="text-2xl font-bold text-fast-yellow-500">500+</div>
+                    <div className="text-sm text-fast-yellow-600">Clientes felizes</div>
                   </div>
                   <div className="bg-fast-black-50 rounded-xl p-4">
                     <div className="text-2xl font-bold text-fast-black-600">3 anos</div>

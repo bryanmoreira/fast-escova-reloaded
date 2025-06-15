@@ -68,8 +68,8 @@ export default {
 					100: '#fdf6e3',
 					200: '#fbecc4',
 					300: '#f7dd9a',
-					400: '#f2c464',
-					500: '#f0dc24',
+					400: '#FFEA61',
+					500: '#FFD400',
 					600: '#d4bc15',
 					700: '#b19513',
 					800: '#8f7316',
@@ -138,8 +138,10 @@ export default {
 				'slide-in-right': 'slide-in-right 0.8s ease-out'
 			},
 			backgroundImage: {
-				'gradient-fast': 'linear-gradient(135deg, #f0dc24 0%, #3d3d3d 100%)',
-				'gradient-fast-light': 'linear-gradient(135deg, #fdf6e3 0%, #f6f6f6 100%)'
+				'gradient-fast': 'linear-gradient(135deg, #FFD400 0%, #3d3d3d 100%)',
+				'gradient-fast-light': 'linear-gradient(135deg, #fdf6e3 0%, #f6f6f6 100%)',
+				'gradient-yellow': 'linear-gradient(135deg, #FFD400 0%, #FFEA61 100%)',
+				'gradient-yellow-light': 'linear-gradient(135deg, #FFEA61 0%, #fefbf3 100%)'
 			}
 		}
 	},

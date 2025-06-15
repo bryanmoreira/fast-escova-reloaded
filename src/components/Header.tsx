@@ -19,8 +19,8 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-fast rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">F</span>
+            <div className="w-10 h-10 bg-gradient-yellow rounded-full flex items-center justify-center">
+              <span className="text-fast-black-800 font-bold text-lg">F</span>
             </div>
             <span className="text-2xl font-bold gradient-text">Fast Escova</span>
           </div>
@@ -59,7 +59,7 @@ const Header = () => {
             </button>
             <Button
               onClick={() => scrollToSection('agendamento')}
-              className="bg-gradient-fast hover:opacity-90 text-white px-6 py-2 rounded-full"
+              className="bg-gradient-yellow hover:opacity-90 text-fast-black-800 font-bold px-6 py-2 rounded-full"
             >
               Agendar Agora
             </Button>
@@ -110,7 +110,7 @@ const Header = () => {
               </button>
               <Button
                 onClick={() => scrollToSection('agendamento')}
-                className="bg-gradient-fast hover:opacity-90 text-white w-full mt-4"
+                className="bg-gradient-yellow hover:opacity-90 text-fast-black-800 font-bold w-full mt-4"
               >
                 Agendar Agora
               </Button>

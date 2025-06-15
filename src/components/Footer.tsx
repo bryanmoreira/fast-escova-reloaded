@@ -1,4 +1,3 @@
-
 import { Heart, Instagram, MessageCircle, MapPin } from "lucide-react";
 
 const Footer = () => {
@@ -29,8 +28,8 @@ const Footer = () => {
           {/* Sobre */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-10 h-10 bg-gradient-fast rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">F</span>
+              <div className="w-10 h-10 bg-gradient-yellow rounded-full flex items-center justify-center">
+                <span className="text-fast-black-800 font-bold text-lg">F</span>
               </div>
               <span className="text-2xl font-bold gradient-text">Fast Escova</span>
             </div>
@@ -110,7 +109,7 @@ const Footer = () => {
             
             <button
               onClick={openMaps}
-              className="mt-6 bg-gradient-fast hover:opacity-90 text-white px-4 py-2 rounded-full transition-opacity"
+              className="mt-6 bg-gradient-yellow hover:opacity-90 text-fast-black-800 font-bold px-4 py-2 rounded-full transition-opacity"
             >
               <MapPin className="w-4 h-4 inline mr-2" />
               Como chegar
@@ -132,7 +131,7 @@ const Footer = () => {
           
           <button
             onClick={scrollToTop}
-            className="bg-fast-yellow-600 hover:bg-fast-yellow-700 text-white px-6 py-2 rounded-full transition-colors"
+            className="bg-gradient-yellow hover:opacity-90 text-fast-black-800 font-bold px-6 py-2 rounded-full transition-opacity"
           >
             Voltar ao topo
           </button>

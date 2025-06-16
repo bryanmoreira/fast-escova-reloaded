@@ -19,10 +19,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-yellow rounded-full flex items-center justify-center">
-              <span className="text-fast-black-800 font-bold text-lg">F</span>
-            </div>
-            <span className="text-2xl font-bold gradient-text">Fast Escova</span>
+            <img src="/logo.png" alt="Logo" className="hidden md:block rounded-full" />
           </div>
 
           {/* Desktop Navigation */}

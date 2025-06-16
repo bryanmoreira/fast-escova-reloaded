@@ -86,7 +86,10 @@ export default {
 					700: '#4f4f4f',
 					800: '#454545',
 					900: '#3d3d3d'
-				}
+				},
+				'gold' : {
+					DEFAULT: '#FFDD3C'
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -138,7 +141,7 @@ export default {
 				'slide-in-right': 'slide-in-right 0.8s ease-out'
 			},
 			backgroundImage: {
-				'gradient-fast': 'linear-gradient(135deg, #FFD400 0%, #3d3d3d 100%)',
+				'gradient-fast': 'linear-gradient(135deg, #FFD400 0%, #FFEA61 100%)',
 				'gradient-fast-light': 'linear-gradient(135deg, #fdf6e3 0%, #f6f6f6 100%)',
 				'gradient-yellow': 'linear-gradient(135deg, #FFD400 0%, #FFEA61 100%)',
 				'gradient-yellow-light': 'linear-gradient(135deg, #FFEA61 0%, #fefbf3 100%)'
